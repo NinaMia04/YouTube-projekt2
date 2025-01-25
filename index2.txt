@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Przykłady osadzania YouTube </title>
+</head>
+<body>
+  <h1>Przykład 1: Zwykłe osadzenie filmu z YouTube</h1>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/AVxIGKZjyZY">
+  </iframe>
+
+  <hr>
+
+  <h1>Przykład 2: Autoodtwarzanie </h1>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/AVxIGKZjyZY?autoplay=1">
+  </iframe>
+
+  <hr>
+
+  <h1>Przykład 3: Start od 10 sekundy i koniec w 20 sekundzie</h1>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/AVxIGKZjyZY?start=10&end=20">
+  </iframe>
+
+  <hr>
+
+  <h1>Przykład 4: Ukrycie kontrolek </h1>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/AVxIGKZjyZY?controls=0">
+  </iframe>
+</body>
+</html>
